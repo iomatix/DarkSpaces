@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &50944185255750420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1380919930155382531}
+  m_Layer: 0
+  m_Name: MissileSpawn1
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1380919930155382531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50944185255750420}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0.054}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2664575140973498512}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &698270626197377152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9101662120341694515}
+  m_Layer: 0
+  m_Name: MissileSpawn2
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9101662120341694515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698270626197377152}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.02, y: -0, z: 0.041}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2664575140973498512}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &3436713076802423338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2664575140973498512}
+  - component: {fileID: 1393199345687387957}
+  - component: {fileID: 3796908481140763647}
+  - component: {fileID: 2553753762970908421}
+  - component: {fileID: 3754025851731474640}
+  - component: {fileID: -6066488153948417328}
+  - component: {fileID: 4419378266557374982}
+  m_Layer: 0
+  m_Name: EnemyTrian
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2664575140973498512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3436713076802423338}
+  m_LocalRotation: {x: 0.9999267, y: 0, z: 0, w: -0.012107986}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 250, y: 250, z: 250}
+  m_Children:
+  - {fileID: 1380919930155382531}
+  - {fileID: 9101662120341694515}
+  - {fileID: 7210316807637265492}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1393199345687387957
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3436713076802423338}
+  m_Mesh: {fileID: 2534964839176971238, guid: 4e82a2eed5b0e774f875c18790fd646d, type: 3}
+--- !u!23 &3796908481140763647
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3436713076802423338}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5808ee706e757734297dd6702c04b99d, type: 2}
+  - {fileID: 2100000, guid: b5e0126124a7edf4ab565d8fb3dc3649, type: 2}
+  - {fileID: 2100000, guid: 5808ee706e757734297dd6702c04b99d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &2553753762970908421
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3436713076802423338}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2534964839176971238, guid: 4e82a2eed5b0e774f875c18790fd646d, type: 3}
+--- !u!54 &3754025851731474640
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3436713076802423338}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 116
+  m_CollisionDetection: 0
+--- !u!114 &-6066488153948417328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3436713076802423338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f1162fe1aaec142a0b5a520449f5af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shieldsForce: 145
+  healthForce: 145
+  shieldRegenAmount: 0.15
+  shieldRegenCooldown: 0.25
+  combatDelayCooldown: 2.5
+  shields: 0
+  health: 0
+  currAmmoType: 2
+  currSubAmmoType: 4
+  bulletObj: {fileID: 832126351336428317, guid: eee7249f6e9ba9747a07bc5201545b36,
+    type: 3}
+  rocketObj: {fileID: 5826724547362064098, guid: 3443daea83b87a14d8c92ec5decda3b8,
+    type: 3}
+  laserObj: {fileID: 6635581377768914630, guid: 268ebe4a7e580a3409d84b4dcded6e1a,
+    type: 3}
+  laserPinkObj: {fileID: 6635581377768914630, guid: c6f2673674fe8c342957a88e6fc5ab5f,
+    type: 3}
+  plasmaObj: {fileID: 6635581377768914630, guid: bd15be7f4de4ef043acd3beab8529e4b,
+    type: 3}
+  destructionLaserObj: {fileID: 6635581377768914630, guid: 840137da81a65f0469bb81161658fec4,
+    type: 3}
+  bossBulletObj: {fileID: 1823114724188164258, guid: c162e205deabb7642b194df9a377e752,
+    type: 3}
+  bossLaserObj: {fileID: 1823114724188164258, guid: b9073b9775d57104c9a41f5123498c6e,
+    type: 3}
+  bossPlasmaObj: {fileID: 1823114724188164258, guid: be806f244d82227488271f3e53f28dae,
+    type: 3}
+  missileTransform: {fileID: 1380919930155382531}
+  missileTransformSide1: {fileID: 9101662120341694515}
+  missileTransformSide2: {fileID: 7210316807637265492}
+  isTripleGunActive: 0
+  isEnergized: 0
+  PowersOnlineTime: 35
+  responseTimeAimin: 0.33
+  responseTimeAimax: 1.65
+  isBaseActive: 0
+--- !u!114 &4419378266557374982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3436713076802423338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6690de15824f7d4b9cec8eac8908f96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInGravity: 1
+  speedForward: 0.019
+  speedLeft: 0.45
+  minBoundX: -330
+  maxBoundX: 330
+  minBoundZ: 50
+  maxBoundZ: 320
+  minVelocityX: -0.04
+  maxVelocitiyX: 0.04
+  minVelocityZ: -0.01
+  maxVelocitiyZ: 0.01
+  velocitySteps: 32
+--- !u!1 &4981639460042935514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7210316807637265492}
+  m_Layer: 0
+  m_Name: MissileSpawn3
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7210316807637265492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4981639460042935514}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.02, y: 0, z: 0.041}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2664575140973498512}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
