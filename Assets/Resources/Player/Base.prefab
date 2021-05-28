@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &118853374361418839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3830752932971678655}
+  m_Layer: 0
+  m_Name: MissileSpawn
+  m_TagString: Base
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3830752932971678655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118853374361418839}
+  m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: -0.047, y: -0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4708352962605307696}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
+--- !u!1 &3154156555532036101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5386133189399170384}
+  m_Layer: 0
+  m_Name: MissileSpawn2
+  m_TagString: Base
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5386133189399170384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3154156555532036101}
+  m_LocalRotation: {x: 0.45451945, y: -0.54167527, z: 0.45451945, w: 0.54167527}
+  m_LocalPosition: {x: -0.047, y: 0.005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4708352962605307696}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 80, y: -90, z: 0}
+--- !u!1 &4036080301062041022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2077454108034455543}
+  m_Layer: 0
+  m_Name: MissileSpawn1
+  m_TagString: Base
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2077454108034455543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4036080301062041022}
+  m_LocalRotation: {x: 0.5416752, y: -0.45451948, z: 0.5416752, w: 0.45451948}
+  m_LocalPosition: {x: -0.047, y: -0.005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4708352962605307696}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 100, y: -90, z: 0}
+--- !u!1 &5340352982742404490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4708352962605307696}
+  - component: {fileID: 8572801484594370709}
+  - component: {fileID: 5844619870982941791}
+  - component: {fileID: -2097877883137092652}
+  - component: {fileID: -2857764857969321400}
+  - component: {fileID: 8434289979783098291}
+  m_Layer: 0
+  m_Name: Base
+  m_TagString: Base
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4708352962605307696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5340352982742404490}
+  m_LocalRotation: {x: -0.48855007, y: 0.51119363, z: 0.5111936, w: 0.48854998}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 300, y: 500, z: 350}
+  m_Children:
+  - {fileID: 3830752932971678655}
+  - {fileID: 2077454108034455543}
+  - {fileID: 5386133189399170384}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 92.595}
+--- !u!33 &8572801484594370709
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5340352982742404490}
+  m_Mesh: {fileID: 3909233067320746374, guid: dec2217a52fd17a438490279ad4205a8, type: 3}
+--- !u!23 &5844619870982941791
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5340352982742404490}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f8559af23ee6892419a46a725ac681d1, type: 2}
+  - {fileID: 2100000, guid: 0f5d982cef755594f9eb49c12aa98f35, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &-2097877883137092652
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5340352982742404490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3909233067320746374, guid: dec2217a52fd17a438490279ad4205a8, type: 3}
+--- !u!64 &-2857764857969321400
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5340352982742404490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3909233067320746374, guid: dec2217a52fd17a438490279ad4205a8, type: 3}
+--- !u!114 &8434289979783098291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5340352982742404490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f1162fe1aaec142a0b5a520449f5af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shieldsForce: 850
+  healthForce: 3250
+  shieldRegenAmount: 3.33
+  shieldRegenCooldown: 0.25
+  combatDelayCooldown: 2.5
+  shields: 0
+  health: 0
+  currAmmoType: 0
+  currSubAmmoType: 1
+  bulletObj: {fileID: 832126351336428317, guid: eee7249f6e9ba9747a07bc5201545b36,
+    type: 3}
+  rocketObj: {fileID: 5826724547362064098, guid: 3443daea83b87a14d8c92ec5decda3b8,
+    type: 3}
+  laserObj: {fileID: 6635581377768914630, guid: 268ebe4a7e580a3409d84b4dcded6e1a,
+    type: 3}
+  laserPinkObj: {fileID: 6635581377768914630, guid: c6f2673674fe8c342957a88e6fc5ab5f,
+    type: 3}
+  plasmaObj: {fileID: 1823114724188164258, guid: be806f244d82227488271f3e53f28dae,
+    type: 3}
+  destructionLaserObj: {fileID: 6635581377768914630, guid: 840137da81a65f0469bb81161658fec4,
+    type: 3}
+  bossBulletObj: {fileID: 1823114724188164258, guid: c162e205deabb7642b194df9a377e752,
+    type: 3}
+  bossLaserObj: {fileID: 1823114724188164258, guid: b9073b9775d57104c9a41f5123498c6e,
+    type: 3}
+  bossPlasmaObj: {fileID: 1823114724188164258, guid: be806f244d82227488271f3e53f28dae,
+    type: 3}
+  missileTransform: {fileID: 3830752932971678655}
+  missileTransformSide1: {fileID: 2077454108034455543}
+  missileTransformSide2: {fileID: 5386133189399170384}
+  isTripleGunActive: 0
+  isEnergized: 0
+  PowersOnlineTime: 35
+  responseTimeAimin: 0.29
+  responseTimeAimax: 1.38
+  isBaseActive: 0
